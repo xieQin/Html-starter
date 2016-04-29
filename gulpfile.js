@@ -30,3 +30,7 @@ gulp.task('sprites', function() {
     data.img.pipe(gulp.dest('./assets/images/'));
     data.css.pipe(gulp.dest('./assets/css'));
 })
+
+gulp.task('watch', function() {
+    gulp.watch('./assets/less/*.*', ['css'])
+})
