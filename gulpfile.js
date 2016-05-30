@@ -1,11 +1,11 @@
 var gulp = require('gulp'),
-	imagemin = require('gulp-imagemin'),
+    imagemin = require('gulp-imagemin'),
     less = require('gulp-less'),
     minifycss = require('gulp-minify-css'),
     rename = require('gulp-rename'),
     concat  = require('gulp-concat'),
     svgSprite = require('gulp-svg-sprites');
-	spritesmith = require('gulp.spritesmith');
+    spritesmith = require('gulp.spritesmith');
 
 //less文件编译合并
 gulp.task('css', function () {
