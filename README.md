@@ -77,6 +77,10 @@ starter for static html
 >```
 
 ##### 2. 使用
+>```html
+><button data-action="test">hello</button>
+>```
+
 >```js
 >$(function() {
 >  FastClick.attach(document.body);
@@ -105,8 +109,4 @@ starter for static html
 >    console.log(self)
 >  }
 >})
->```
-
->```html
-><button data-action="test">hello</button>
 >```
