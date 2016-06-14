@@ -3,6 +3,8 @@ starter for static html
 
 ### 一、主要内容
 - 静态页面开发模板
+- 重置css样式
+- 移动端使用lib-flexible，按750设计稿制作，使用rem
 - 使用less作为css预编译语言
 - gulp命令：less文件编译合并、小图标制作雪碧图、svg图标制作雪碧图、文件变动监测
 - webpack，包含简单的devServer，使用es2015开发
