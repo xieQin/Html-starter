@@ -16,50 +16,50 @@ starter for static html
 >```
 
 ##### 简单使用
-```bash
-npm install
-http-server
-```
+>```bash
+>npm install
+>http-server
+>```
 
 ##### 使用gulp
-文件变动监测
-```bash
-gulp watch
-```
+###### 文件变动监测
+>```bash
+>gulp watch
+>```
 
-less文件编译合并
-```bash
-gulp css
-```
-引用方法
-```html
-<link href="./assets/css/main.min.css" rel="stylesheet">
-```
+###### less文件编译合并
+>```bash
+>gulp css
+>```
+>引用方法
+>```html
+><link href="./assets/css/main.min.css" rel="stylesheet">
+>```
 
-小图标制作雪碧图
-```bash
-gulp sprites
-```
-引用方法
-```html
-<link href="./assets/css/sprites.css" rel="stylesheet">
-```
+###### 小图标制作雪碧图
+>```bash
+>gulp sprites
+>```
+>引用方法
+>```html
+><link href="./assets/css/sprites.css" rel="stylesheet">
+>```
 
-svg图标制作雪碧图
-```bash
-gulp svg-sprites
-```
-引用方法
-```html
-<link href="./assets/css/sprite.css" rel="stylesheet">
-```
+###### svg图标制作雪碧图
+>```bash
+>gulp svg-sprites
+>```
+>引用方法
+>```html
+><link href="./assets/css/sprite.css" rel="stylesheet">
+>```
 
 #####使用webpack
-dev
-```bash
-npm run start
-```
-build
-```bash
-npm run build
-```
+###### dev环境
+>```bash
+>npm run start
+>```
+###### build环境
+>```bash
+>npm run build
+>```
