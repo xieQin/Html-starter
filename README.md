@@ -21,8 +21,8 @@ starter for static html
 >http-server
 >```
 
-#### 1. 使用gulp
-##### 文件变动监测
+### 四、使用gulp
+##### 1. 文件变动监测
 >```bash
 >gulp watch
 >```
@@ -54,12 +54,12 @@ starter for static html
 ><link href="./assets/css/sprite.css" rel="stylesheet">
 >```
 
-#### 5. 使用webpack
-- dev环境
+#### 五、使用webpack
+##### 1. dev环境
 >```bash
 >npm run start
 >```
-- build环境
+##### 2. build环境
 >```bash
 >npm run build
 >```
