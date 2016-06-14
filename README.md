@@ -22,12 +22,12 @@ http-server
 ```
 
 ##### 使用gulp
--文件变动监测
+文件变动监测
 ```bash
 gulp watch
 ```
 
--less文件编译合并
+less文件编译合并
 ```bash
 gulp css
 ```
@@ -36,7 +36,7 @@ gulp css
 <link href="./assets/css/main.min.css" rel="stylesheet">
 ```
 
--小图标制作雪碧图
+小图标制作雪碧图
 ```bash
 gulp sprites
 ```
@@ -45,7 +45,7 @@ gulp sprites
 <link href="./assets/css/sprites.css" rel="stylesheet">
 ```
 
--svg图标制作雪碧图
+svg图标制作雪碧图
 ```bash
 gulp svg-sprites
 ```
@@ -55,11 +55,11 @@ gulp svg-sprites
 ```
 
 #####使用webpack
--dev
+dev
 ```bash
 npm run start
 ```
--build
+build
 ```bash
 npm run build
 ```
