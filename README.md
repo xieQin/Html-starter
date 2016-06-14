@@ -31,7 +31,7 @@ starter for static html
 >```bash
 >gulp css
 >```
-引用方法
+
 >```html
 ><link href="./assets/css/main.min.css" rel="stylesheet">
 >```
@@ -40,7 +40,7 @@ starter for static html
 >```bash
 >gulp sprites
 >```
-引用方法
+
 >```html
 ><link href="./assets/css/sprites.css" rel="stylesheet">
 >```
@@ -49,7 +49,7 @@ starter for static html
 >```bash
 >gulp svg-sprites
 >```
-引用方法
+
 >```html
 ><link href="./assets/css/sprite.css" rel="stylesheet">
 >```
