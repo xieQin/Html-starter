@@ -56,7 +56,7 @@ starter for static html
 ><link href="./assets/css/sprite.css" rel="stylesheet">
 >```
 
-#### 五、使用webpack
+### 五、使用webpack
 
 ##### 1. dev环境
 >```bash
@@ -66,4 +66,47 @@ starter for static html
 ##### 2. build环境
 >```bash
 >npm run build
+>```
+
+### 六、事件委托的点击事件处理
+
+##### 1. 库依赖
+>```html
+><script src="./assets/js/jquery-1.11.1.min.js"></script>
+><script src="./assets/js/fastclick.js"></script>
+>```
+
+##### 2. 使用
+>```js
+>$(function() {
+>  FastClick.attach(document.body);
+>
+>  var actionList = {
+>    //demo
+>    'test': function(self) {
+>      testFunc(self)
+>    }
+>  }
+>  var $body = $(document)
+>
+>  $body.on('click', '[data-action]', function () {
+>    var actionName = $(this).data('action')
+>    var action = actionList[actionName]
+>    var self = this
+>    if ($.isFunction(action)) action(self)
+>  })
+>
+>  /**
+>   * [testFunc 测试方法]
+>   * @param  {[type]} self [description]
+>  * @return {[type]}      [description]
+>   */
+>  function testFunc (self) {
+>    console.log(self)
+>  }
+>})
+>```
+
+>```html
+><button data-action="test">hello</button>
 >```
