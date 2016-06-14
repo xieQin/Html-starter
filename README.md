@@ -8,12 +8,12 @@ starter for static html
 - webpack，包含简单的devServer，使用es2015开发
 
 ##### 环境依赖
-需要安装node环境
+需要使用gulp及webpack时先安装nodejs环境
 
-```bash
-node -v
-npm -v
-```
+>```bash
+>node -v
+>npm -v
+>```
 
 ##### 简单使用
 ```bash
