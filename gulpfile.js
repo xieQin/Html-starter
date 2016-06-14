@@ -38,7 +38,6 @@ gulp.task('sprites', function() {
 gulp.task('svg-sprites', function() {
     return gulp.src('./assets/images/svg/*.svg')
             .pipe(svgSprite())
-            .pipe(rename({ suffix: '.svg' }))
             .pipe(gulp.dest('./assets'))
 })
 
