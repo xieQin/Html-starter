@@ -12,13 +12,15 @@ starter for static html
 
 >```bash
 >node -v
+>
 >npm -v
 >```
 
 ### 三、简单使用
 >```bash
 >npm install
->http-server
+>
+>http-server -p 3000
 >```
 
 ### 四、使用gulp
