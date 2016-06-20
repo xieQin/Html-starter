@@ -1,7 +1,6 @@
 # Html-starter
-starter for static html
-
-gulp、less、webpack均可单独使用
+- starter for static html
+- gulp、less、webpack均可单独使用
 
 ### 一、主要内容
 - 静态页面开发模板
